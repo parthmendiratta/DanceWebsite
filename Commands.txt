@@ -1,0 +1,11 @@
+touch .gitignore : We used this command to create a .gitignore file which will ignore our specified file
+git config --global user.name "Whatever the name is"
+git config --global user.email "your_email"
+git init : init crates a file .git
+git add . : all the files comes into staging area except the files whcih are ignored
+git commit -m "Initial Commit" : Hamara commit ban gaya
+git status : Just to see if everything is correct
+ssh-keygen -t ed25519 -C "parthmendiratta30@gmail.com" : This Command will create your key
+cat /c/Users/Balli/.ssh/id_ed25519.pub : This will provide the key which we will paste in the title section on github
+git remote add origin <ssh url.git>
+git push origin master
