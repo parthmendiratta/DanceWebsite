@@ -1,0 +1,10 @@
+doctype html 
+html 
+    head 
+        title DashBoard
+    body 
+        - messages.forEach(message=>{
+            -let name=message.name;
+              h1=`Good Morning ${name}`
+        - });
+        h1 Create Explore Expand Conquer

@@ -1,0 +1,37 @@
+.signup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.signup input,textarea{
+    width: 50%;
+    margin: 10px 0px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    border: none;
+}
+.signup label{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -620px;
+    font-weight: bold;
+}
+#phone_nolabel{
+    margin-left: -592px;
+}
+#agelabel{
+    margin-left: -628px;
+}
+#informationlabel{
+    margin-left: -505px;
+}
+#sign_up{
+    background-color: rgb(252, 189, 94);
+    font-size: 18px;
+    font-weight: bold;
+}
+#sign_up:hover{
+    background-color: rgb(223, 168, 87);
+    cursor: pointer;
+}

@@ -1,0 +1,35 @@
+extends base.pug
+block scripts 
+    script(src="/static/index.js")
+block style 
+    style 
+        include ../static/style.css
+
+block content 
+        
+        h1 Welcome to my site
+        div.container
+            section#intro 
+                | Eat Sleep Dance Repeat
+            h1 Our Mission
+            div.card
+                div.card1
+                    | Dance is an art
+                    img(src="./static/dancer1.png")
+                    span  This is the best dance academy ever
+                div.card1
+                    | Dance your heart out
+                    img(src="./static/dancer2.png")
+                    span  This is the best dance academy ever
+                div.card1
+                    | Dance with joy
+                    img(src="./static/dancer3.png")
+                    span  This is the best dance academy ever
+            section#sponsors 
+                h1 Our Sponsors
+                div.images
+                    img(src="./static/dell-png-logo-3741.png", alt="Sponsor image")
+                    img(src="./static/microsoft-logo-png-2398.png", alt="Sponsor image")
+                    img(src="./static/php-logo-20767.png", alt="Sponsor image")
+                    img(src="./static/png-apple-logo-9716.png", alt="Sponsor image")
+                    img(src="./static/skype-logo-19842.png", alt="Sponsor image")

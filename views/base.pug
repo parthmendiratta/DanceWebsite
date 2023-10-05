@@ -1,0 +1,21 @@
+doctype html 
+html 
+    head 
+        title 
+        block scripts
+        block style
+    body 
+        nav#navbar
+           ul 
+            div#logo 
+                a(href="/")
+                    img(src="./static/pngwing.com.png")
+                    | HDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/contact") Contact Us]
+        block content
+        footer#footer 
+            | www.dance.com
+            | &copy All rights reserved 2023

@@ -1,0 +1,19 @@
+doctype html 
+html 
+    head 
+        title SignUp Page
+    body 
+        form(action="/", method="post") 
+            label(for="name") Name:
+            input(type="text", name="name",id="name",placeholder="Enter your name")
+            br
+            label(for="email") Email:
+            input(type="email", name="email",id="email",placeholder="Enter your email")
+            br
+            label(for="password") Password:
+            input(type="password", name="password",id="password",placeholder="Enter your password")
+            br
+            label(for="description") Description:
+            br
+            textarea(name="description", cols="30", rows="10",id="description",placeholder="Tell us more about yourself")  
+            input(type="submit", value="Submit")

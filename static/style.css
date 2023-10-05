@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+}
+body{
+    /* height: 100%; */
+    background: url("./static/pexels-tim-gouw-175658.jpg") center center no-repeat;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    margin-top: -4px;
+    position: absolute;
+    left: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#logo a{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    color: black;
+}
+#logo img{
+    height: 40px;
+    margin-right: 10px;
+    filter: invert(1);
+}
+#navbar{
+    padding: 20px 1px;
+}
+#navbar ul{
+    display: flex;
+    justify-content: center;
+}
+#navbar ul li{
+    list-style: none;
+    margin: 5px 35px;
+    margin-right: 35px;
+}
+#navbar ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 16px;
+}
+#navbar ul li a:hover{
+    color: rgb(206, 189, 189);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.container h1{
+    text-align: center;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+    margin: 44px 96px;
+}
+.card1{
+    height: 200px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+.card1 img{
+    height: 150px;
+    width: 176px;
+}
+#intro{
+    color: white;
+    background: url("./static/ballerinas-1376250_1280.jpg") center center ;
+    display: flex;
+    width: 100%;
+    height: 400px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+#sponsors{
+    background: url("./static/pexels-yaroslav-shuraev-8090451.jpg")  center no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+#sponsors img{
+    height: 150px;
+    margin: 0px 10px;
+}
+.images{
+    margin: 40px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+    align-items: center;
+    height: 60px;
+    background: black;
+    color: white;
+}
